@@ -1,0 +1,65 @@
+.searchResultsList{
+    border:2px solid;
+    /* position:relative; */
+    position: absolute;
+    z-index: 500;
+    max-height:100px;
+    list-style-type: none;
+    overflow-y:scroll;
+    border:'2px solid';
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    left: 28px;
+    width: 60%;
+    background: white;
+    border-radius: 10px;
+    padding: 0;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .searchResultsList{
+    width: 90%;
+  }
+}
+
+.overflow-suiggestions .searchResultsList {
+  position: relative;
+  visibility: hidden;
+}
+
+.item{
+    /* background-color: grey; */
+    margin: 0;
+    border-bottom: 1px solid #CCCC;
+    padding: 10px 15px;
+    color: #636363;
+}
+
+.item:hover,
+.item.active {
+    background-color: #424866;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+/* width */
+.searchResultsList::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.searchResultsList::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.searchResultsList::-webkit-scrollbar-thumb {
+  background: #AEAEAE;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+/* .searchResultsList::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
