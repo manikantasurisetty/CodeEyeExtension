@@ -9,11 +9,11 @@ Switch on developer Mode <br/>
 
 Select load unpacked option <br/>
 
-<img src="./Images/Step2.png" alt="select unpacked option">
+<img src="./Images/step2.png" alt="select unpacked option">
 
 Browse and select codeEyeExtension folder in repo <br/>
 
-<img src="./Images/step3.png" alt="select codeEyeExtension">
+<img src="./Images/step3.PNG" alt="select codeEyeExtension">
 
 # Steps to enable CodeEyeExtension in GitHub 
 Navigate to Github page
